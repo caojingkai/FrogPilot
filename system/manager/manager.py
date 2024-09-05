@@ -358,7 +358,7 @@ def manager_init() -> None:
     ("WD40Drives", "0"),
     ("WD40LiveTorqueParameters", ""),
     ("WD40Score", "0"),
-    ("", "0"),
+    ("WheelIcon", "0"),
     ("WheelSpeed", "0")
   ]
   if not PC:
