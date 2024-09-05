@@ -212,7 +212,7 @@ def manager_init() -> None:
     ("MapboxSecretKey", ""),
     ("MapsSelected", ""),
     ("MapStyle", "10"),
-    ("MinimumLaneChangeSpeed", "LANE_CHANGE_SPEED_MIN"),
+    ("MinimumLaneChangeSpeed", str(LANE_CHANGE_SPEED_MIN / CV.MPH_TO_MS)),
     ("Model", DEFAULT_MODEL),
     ("ModelManagement", "0"),
     ("ModelName", DEFAULT_MODEL_NAME),
